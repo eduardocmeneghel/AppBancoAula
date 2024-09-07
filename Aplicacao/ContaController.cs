@@ -25,7 +25,7 @@ namespace Aplicacao
         }
 
         [HttpPost]
-        public IActionResult Inserir(InserirContaDTO inserirDto)
+        public IActionResult Inserir([FromBody] InserirContaDTO inserirDto)
         {
             try
             {
